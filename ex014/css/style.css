@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+
+h1{
+    color: aquamarine;
+    border: 5px solid rgb(0, 0, 0);
+    background-image: url(maxwell\ 1.jpg);
+    /* padding-top: 20px ;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px; */
+   /*  padding: 20px 20px 20px 20px; */
+   padding: 20px 10px;
+   margin: 10% auto;
+   width: 80%;
+   outline: 8px solid brown;
+   margin-top: 2%;
+}
+
+a{ /*  cima, esquerda, baixo, direita */
+    border: 1px solid rgb(106, 143, 20);
+    background-color: rgb(190, 226, 28);
+    border-radius: 5px;
+    box-shadow: 5px 5px 8px rgb(47, 104, 21) ;
+    color: white;
+    text-decoration: none;
+    padding:5px 20px;
+    text-transform: uppercase;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 2%;
+    
+   
+   
+    
+    
+}
+ #menu_nav{ 
+    text-align: center;
+    border: 5px black;
+    width: 80%;
+    margin: auto;
+    }
+
+    p > span{
+        display: none;
+    }
+
+    p:hover > span{
+        display:block;
+        background-color: orange;
+    }
+    
+  
+
+
+

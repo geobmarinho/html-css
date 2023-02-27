@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <h1>Formulários em html</h1>
+    <form action="">
+    <fieldset>
+             <legend>Dados pessoais</legend>
+             <label for="pnome">nome</label>
+             <input type="pnome" name="" id="pnome" value="geo" readonly>
+             <br>
+
+             <label for="psw">senha</label>
+             <input type="password"" id="psw" name="psw">
+             <br>
+
+             <label for="sexo">sexo</label>
+             <br>
+             <input type="radio" name="sexo" id="masculino" value="Masculino">
+             <label for="Masculino">Masculino</label>
+             <input type="radio" name="sexo" id="feminino" value="Feminino">
+             <label for="Feminino">Feminino</label>
+             <br>
+              
+             <label for="def">Possui alguma deficiência?</label>
+             <br>
+             <label for="visao">Visão</label>
+             <input type="checkbox" name="visao" id="visao">
+             
+             <label for="auditiva">Auditiva</label>
+             <input type="checkbox" name="auditiva" id="auditiva">
+            
+             <p><!--Input de aniversário-->
+                <label for="birthday">Qual sua data de nascimento?</label>
+                <input type="date" name="birthday" id="birthday">
+
+             </p>
+
+             <p>
+                <label for="fPerfil">Perfil</label>
+                <input type="file" name="FPerfil" id="FPerfil">
+
+             </p>
+
+             <p>
+               <label for="Digite aqui sua dúvida">Dúvidas</label>
+                <br>
+               <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+            </p>
+
+            <p><label for="raca">raça</label>
+                <select name="raca" id="raca">
+                      <option value="Pardo">Pardo</option>
+                      <option value="Negro">negro</option>
+                      <option value="Branco">branco</option>
+                      <option value="amarelo">Amarelo</option>
+                      <option value="Indigena">Indigena</option>
+                </select>
+
+           </p>
+
+           <p>
+              <label for="email">Email:</label>
+              <input type="email" name="email" id="email">
+
+           </p>
+
+           <p>
+              <label for="cor">cor:</label>
+              <input type="color" name="cor" id="cor">
+
+           </p>
+        
+             
+             <input type="submit" value="Enviar">
+             <input type="reset" value="Redefinir">
+
+
+             
+
+
+    </fieldset>
+
+    </form>
+    
+</body>
+</html>

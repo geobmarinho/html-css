@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+
+
+#title1 {
+    color: rgb(9, 155, 252);
+}
+
+#title2{
+    color: rgb(115, 248, 115);
+}
+
+
+.subTitle1 {
+    color: orange;
+}
+
+.subTitle2{
+    color: rgb(13, 68, 248);
+}
+
+.word1 {
+    color: yellow;
+}
+
+.word2 {
+    color: rgb(226, 43, 226);
+}

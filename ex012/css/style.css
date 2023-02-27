@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@1,800&display=swap');
+
+@font-face {
+    font-family:geofont;
+    src: url(Fontes/histeagin.ttf);  /* ou (../Fontes/histeagin.tth */
+}
+
+
+:root{
+    --cor1: #fa811d;
+    --cor2: #F7A15B;
+    --cor3: #796453;
+}
+
+h1{ /* color #D97236: */ /* COR EM HEXADECIMAL */ 
+    /*  color: rgb (217, 114, 54) */
+/* cor em rgb */ 
+   
+/* color: rgb(151, 250, 148, 0.658), rgb(93, 192, 93), rgb(92, 92, 231);
+background-image: linear-gradient(#F7A15B, #F57811, #753908); */
+color:var(--cor1);
+font-family: geofont;
+}
+
+h2{
+    color:var(--cor2);
+    font-family: 'Pacifico', cursive;
+    
+}
+
+p{
+    color: var(--cor3);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}

@@ -1,0 +1,35 @@
+@charset "UTF-8";
+    body{ 
+       margin: 100px;
+       border: 1px solid;
+    }
+   h1{ /*  seletor a ser alterado */
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; /* Declaração: propiedade que queremos alterar, no caso, no caso o font-family */
+color: black;
+font-size: 32px;
+background-color: rgba(127, 255, 212, 0.514);
+box-shadow: 2px 2px 1px 3px; 
+
+
+}
+
+a{ color: blueviolet;
+    text-decoration: none;
+    background-color: black;
+
+}
+
+a:hover{ 
+    background-color: aqua;
+    
+} 
+
+/* Quando coloco a seta do mouse em cima */
+a :visited{ 
+    color: brown;
+
+}
+
+span{
+    color: blue;
+}

@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+#flex-conteiner{
+    
+    background-color: rgb(238, 208, 175);
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-between;
+    display: flex;
+    height: 500px;
+    align-items: center;
+     }
+
+#flex-conteiner >div{ 
+
+    
+    width: 60px;
+    height: 60px;
+    background-color: rgb(134, 250, 215);
+    margin: 5px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    line-height: 60px;
+   
+    
+
+}
